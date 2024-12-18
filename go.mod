@@ -38,6 +38,8 @@ require (
 	github.com/pkg/errors v0.8.1
 	github.com/pkg/profile v0.0.0-20161223203901-3a8809bd8a80
 	github.com/pkg/sftp v0.0.0-20160930220758-4d0e916071f6 // indirect
+	github.com/studyzy/crypto v0.0.0-20201025151115-27e67ee9d143
+	github.com/studyzy/net v0.0.0-20201020014349-89230b9445e0
 	github.com/prometheus/client_golang v0.0.0-20181230203121-fb3d5cb2ad57
 	github.com/prometheus/procfs v0.0.0-20190102135031-14fa7590c24d // indirect
 	github.com/spf13/afero v0.0.0-20160919210114-52e4a6cfac46 // indirect
