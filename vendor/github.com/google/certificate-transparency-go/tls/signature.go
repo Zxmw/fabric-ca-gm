@@ -15,19 +15,23 @@
 package tls
 
 import (
-	"crypto"
 	"crypto/dsa"
-	"crypto/ecdsa"
 	_ "crypto/md5" // For registration side-effect
 	"crypto/rand"
-	"crypto/rsa"
 	_ "crypto/sha1"   // For registration side-effect
-	_ "crypto/sha256" // For registration side-effect
 	_ "crypto/sha512" // For registration side-effect
 	"errors"
 	"fmt"
 	"log"
 	"math/big"
+
+	"github.com/studyzy/crypto/rsa"
+
+	"github.com/studyzy/crypto/ecdsa"
+
+	_ "github.com/studyzy/crypto/sha256" // For registration side-effect
+
+	"github.com/studyzy/crypto"
 
 	"github.com/google/certificate-transparency-go/asn1"
 )

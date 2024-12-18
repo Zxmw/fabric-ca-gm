@@ -9,7 +9,8 @@ package x509
 import (
 	"encoding/hex"
 	"fmt"
-	"net/http"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/hyperledger/fabric-ca/api"

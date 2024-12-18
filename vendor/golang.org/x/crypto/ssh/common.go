@@ -5,16 +5,18 @@
 package ssh
 
 import (
-	"crypto"
 	"crypto/rand"
 	"fmt"
 	"io"
 	"math"
 	"sync"
 
+	"github.com/studyzy/crypto"
+
 	_ "crypto/sha1"
-	_ "crypto/sha256"
 	_ "crypto/sha512"
+
+	_ "github.com/studyzy/crypto/sha256"
 )
 
 // These are string constants in the SSH protocol.

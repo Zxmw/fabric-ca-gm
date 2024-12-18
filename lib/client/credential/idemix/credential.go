@@ -9,7 +9,8 @@ package idemix
 import (
 	"encoding/json"
 	"fmt"
-	"net/http"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/golang/protobuf/proto"

@@ -7,13 +7,14 @@ package lib
 
 import (
 	"crypto/rand"
-	"crypto/x509"
 	"fmt"
 	"io/ioutil"
-	"net/http"
 	"os"
 	"path"
 	"testing"
+
+	"github.com/studyzy/crypto/x509"
+	"github.com/studyzy/net/http"
 
 	"github.com/cloudflare/cfssl/csr"
 	"github.com/cloudflare/cfssl/log"

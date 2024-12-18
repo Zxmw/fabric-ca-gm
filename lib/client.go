@@ -8,19 +8,21 @@ package lib
 
 import (
 	"bytes"
-	"crypto"
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"net"
-	"net/http"
 	"net/url"
 	"os"
 	"path"
 	"path/filepath"
 	"strconv"
 	"strings"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto"
 
 	cfsslapi "github.com/cloudflare/cfssl/api"
 	"github.com/cloudflare/cfssl/csr"

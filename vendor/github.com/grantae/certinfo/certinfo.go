@@ -3,9 +3,6 @@ package certinfo
 import (
 	"bytes"
 	"crypto/dsa"
-	"crypto/ecdsa"
-	"crypto/rsa"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"
@@ -13,6 +10,11 @@ import (
 	"math/big"
 	"net"
 	"time"
+
+	"github.com/studyzy/crypto/rsa"
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
 )
 
 // Extra ASN1 OIDs that we may need to handle

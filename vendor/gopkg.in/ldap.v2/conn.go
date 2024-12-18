@@ -5,7 +5,6 @@
 package ldap
 
 import (
-	"crypto/tls"
 	"errors"
 	"fmt"
 	"log"
@@ -13,7 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/asn1-ber.v1"
+	"github.com/studyzy/crypto/tls"
+
+	ber "gopkg.in/asn1-ber.v1"
 )
 
 const (

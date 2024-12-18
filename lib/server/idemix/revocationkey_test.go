@@ -7,12 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package idemix_test
 
 import (
-	"crypto/ecdsa"
 	"io/ioutil"
 	"os"
 	"path"
 	"path/filepath"
 	"testing"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	. "github.com/hyperledger/fabric-ca/lib/server/idemix"
 	"github.com/hyperledger/fabric-ca/lib/server/idemix/mocks"

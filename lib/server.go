@@ -8,20 +8,23 @@ package lib
 
 import (
 	"context"
-	"crypto/tls"
-	"crypto/x509"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"net"
-	"net/http"
-	_ "net/http/pprof" // import to support profiling
 	"os"
 	"path/filepath"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
+
+	_ "github.com/studyzy/net/http/pprof" // import to support profiling
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/tls"
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/cloudflare/cfssl/revoke"

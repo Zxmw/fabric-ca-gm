@@ -7,12 +7,13 @@ package auth
 
 import (
 	"crypto/hmac"
-	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
 	"io/ioutil"
 	"os"
 	"strings"
+
+	"github.com/studyzy/crypto/sha256"
 )
 
 // An AuthenticatedRequest contains a request and authentication

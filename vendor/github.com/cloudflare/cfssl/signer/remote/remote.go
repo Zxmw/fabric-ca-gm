@@ -1,10 +1,11 @@
 package remote
 
 import (
-	"crypto/x509"
 	"encoding/json"
 	"errors"
-	"net/http"
+
+	"github.com/studyzy/crypto/x509"
+	"github.com/studyzy/net/http"
 
 	"github.com/cloudflare/cfssl/api/client"
 	"github.com/cloudflare/cfssl/certdb"

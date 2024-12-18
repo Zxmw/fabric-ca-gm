@@ -10,12 +10,14 @@ import (
 	"bytes"
 	"fmt"
 	"io/ioutil"
-	"net/http"
-	"net/http/httptest"
 	"os"
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/studyzy/net/http/httptest"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/cloudflare/cfssl/certdb"
 	"github.com/hyperledger/fabric-ca/api"

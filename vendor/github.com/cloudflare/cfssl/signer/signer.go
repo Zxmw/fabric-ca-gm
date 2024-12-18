@@ -2,19 +2,24 @@
 package signer
 
 import (
-	"crypto"
-	"crypto/ecdsa"
-	"crypto/elliptic"
-	"crypto/rsa"
 	"crypto/sha1"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"
 	"math/big"
-	"net/http"
 	"strings"
 	"time"
+
+	"github.com/studyzy/crypto/rsa"
+
+	"github.com/studyzy/crypto/x509"
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
+
+	"github.com/studyzy/crypto"
 
 	"github.com/cloudflare/cfssl/certdb"
 	"github.com/cloudflare/cfssl/config"

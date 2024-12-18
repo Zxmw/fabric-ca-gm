@@ -17,10 +17,11 @@ limitations under the License.
 package tls
 
 import (
-	"crypto/tls"
-	"crypto/x509"
 	"io/ioutil"
 	"time"
+
+	"github.com/studyzy/crypto/tls"
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/hyperledger/fabric-ca/util"

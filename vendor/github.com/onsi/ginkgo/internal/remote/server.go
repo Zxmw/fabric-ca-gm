@@ -11,8 +11,9 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"net"
-	"net/http"
 	"sync"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/onsi/ginkgo/internal/spec_iterator"
 

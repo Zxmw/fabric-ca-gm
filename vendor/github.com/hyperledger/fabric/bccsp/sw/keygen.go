@@ -17,11 +17,14 @@ limitations under the License.
 package sw
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"crypto/rand"
-	"crypto/rsa"
 	"fmt"
+
+	"github.com/studyzy/crypto/rsa"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric/bccsp"
 )

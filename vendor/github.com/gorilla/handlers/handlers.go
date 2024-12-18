@@ -8,9 +8,10 @@ import (
 	"bufio"
 	"fmt"
 	"net"
-	"net/http"
 	"sort"
 	"strings"
+
+	"github.com/studyzy/net/http"
 )
 
 // MethodHandler is an http.Handler that dispatches to a handler whose key in the

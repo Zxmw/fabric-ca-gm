@@ -12,9 +12,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"net/http"
 	"sync"
 	"time"
+
+	"github.com/studyzy/net/http"
 )
 
 type AlreadyRegisteredError string

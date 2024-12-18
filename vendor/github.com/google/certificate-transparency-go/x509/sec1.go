@@ -5,11 +5,13 @@
 package x509
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"errors"
 	"fmt"
 	"math/big"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/google/certificate-transparency-go/asn1"
 )

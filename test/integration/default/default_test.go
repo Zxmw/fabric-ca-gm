@@ -8,8 +8,6 @@ package defserver
 
 import (
 	"bytes"
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"crypto/rand"
 	"crypto/x509"
 	"crypto/x509/pkix"
@@ -21,6 +19,10 @@ import (
 	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/cloudflare/cfssl/certdb"
 	"github.com/cloudflare/cfssl/config"

@@ -8,16 +8,18 @@
 package ocsp
 
 import (
-	"crypto/sha256"
 	"encoding/base64"
 	"encoding/hex"
 	"errors"
 	"fmt"
 	"io/ioutil"
-	"net/http"
 	"net/url"
 	"regexp"
 	"time"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/cloudflare/cfssl/certdb"
 	"github.com/cloudflare/cfssl/log"

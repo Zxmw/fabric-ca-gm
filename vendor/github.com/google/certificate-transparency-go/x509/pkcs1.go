@@ -5,9 +5,10 @@
 package x509
 
 import (
-	"crypto/rsa"
 	"errors"
 	"math/big"
+
+	"github.com/studyzy/crypto/rsa"
 
 	"github.com/google/certificate-transparency-go/asn1"
 )

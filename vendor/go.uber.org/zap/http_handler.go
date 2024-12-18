@@ -23,7 +23,8 @@ package zap
 import (
 	"encoding/json"
 	"fmt"
-	"net/http"
+
+	"github.com/studyzy/net/http"
 
 	"go.uber.org/zap/zapcore"
 )

@@ -9,9 +9,10 @@ package lib
 import (
 	"encoding/json"
 	"fmt"
-	"net/http"
 	"os"
 	"strconv"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/hyperledger/fabric-ca/api"

@@ -8,13 +8,15 @@ package operations
 
 import (
 	"context"
-	"crypto/tls"
 	"fmt"
 	"io"
 	"net"
-	"net/http"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/tls"
 
 	"github.com/cloudflare/cfssl/log"
 	kitstatsd "github.com/go-kit/kit/metrics/statsd"

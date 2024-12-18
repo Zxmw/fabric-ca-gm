@@ -2,9 +2,10 @@ package httpsnoop
 
 import (
 	"io"
-	"net/http"
 	"sync"
 	"time"
+
+	"github.com/studyzy/net/http"
 )
 
 // Metrics holds metrics captured from CaptureMetrics.

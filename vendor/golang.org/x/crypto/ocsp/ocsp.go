@@ -8,15 +8,9 @@
 package ocsp // import "golang.org/x/crypto/ocsp"
 
 import (
-	"crypto"
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"crypto/rand"
-	"crypto/rsa"
 	_ "crypto/sha1"
-	_ "crypto/sha256"
 	_ "crypto/sha512"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"
@@ -24,6 +18,17 @@ import (
 	"math/big"
 	"strconv"
 	"time"
+
+	"github.com/studyzy/crypto/rsa"
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
+
+	_ "github.com/studyzy/crypto/sha256"
+
+	"github.com/studyzy/crypto"
 )
 
 var idPKIXOCSPBasic = asn1.ObjectIdentifier([]int{1, 3, 6, 1, 5, 5, 7, 48, 1, 1})

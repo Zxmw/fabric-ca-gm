@@ -15,12 +15,13 @@ package afero
 
 import (
 	"errors"
-	"net/http"
 	"os"
 	"path"
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
 )
 
 type httpDir struct {

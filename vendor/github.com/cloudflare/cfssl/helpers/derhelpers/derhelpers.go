@@ -3,10 +3,12 @@
 package derhelpers
 
 import (
-	"crypto"
-	"crypto/ecdsa"
-	"crypto/rsa"
-	"crypto/x509"
+	"github.com/studyzy/crypto/rsa"
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
+
+	"github.com/studyzy/crypto"
 
 	cferr "github.com/cloudflare/cfssl/errors"
 )

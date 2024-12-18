@@ -8,10 +8,12 @@ package lib
 
 import (
 	"context"
-	"net/http"
-	"net/http/httptest"
 	"os"
 	"testing"
+
+	"github.com/studyzy/net/http/httptest"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/gorilla/mux"

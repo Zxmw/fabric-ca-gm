@@ -7,10 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package pkcs11
 
 import (
-	"crypto/ecdsa"
-	"crypto/rsa"
-	"crypto/x509"
 	"os"
+
+	"github.com/studyzy/crypto/rsa"
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric/bccsp"
 	"github.com/hyperledger/fabric/bccsp/sw"

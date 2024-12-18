@@ -17,11 +17,12 @@ limitations under the License.
 package sw
 
 import (
-	"crypto/ecdsa"
 	"crypto/hmac"
 	"errors"
 	"fmt"
 	"math/big"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric/bccsp"
 )

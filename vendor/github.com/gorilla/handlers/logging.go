@@ -7,11 +7,12 @@ package handlers
 import (
 	"io"
 	"net"
-	"net/http"
 	"net/url"
 	"strconv"
 	"time"
 	"unicode/utf8"
+
+	"github.com/studyzy/net/http"
 )
 
 // Logging

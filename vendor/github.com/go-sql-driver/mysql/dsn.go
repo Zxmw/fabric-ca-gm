@@ -10,8 +10,6 @@ package mysql
 
 import (
 	"bytes"
-	"crypto/rsa"
-	"crypto/tls"
 	"errors"
 	"fmt"
 	"math/big"
@@ -21,6 +19,10 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/studyzy/crypto/rsa"
+
+	"github.com/studyzy/crypto/tls"
 )
 
 var (

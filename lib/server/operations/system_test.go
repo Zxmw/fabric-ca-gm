@@ -10,10 +10,11 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net"
-	"net/http"
 	"os"
 	"path/filepath"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/hyperledger/fabric-ca/lib/server/operations"
 	"github.com/hyperledger/fabric/common/metrics/disabled"

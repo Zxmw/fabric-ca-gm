@@ -8,7 +8,8 @@ package lib
 
 import (
 	"encoding/json"
-	"net/http"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/cloudflare/cfssl/api"
 	"github.com/cloudflare/cfssl/log"

@@ -4,9 +4,10 @@ import (
 	"bytes"
 	"encoding/json"
 	"io/ioutil"
-	"net/http"
 	"reflect"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/onsi/ginkgo/internal/failer"
 	"github.com/onsi/ginkgo/types"

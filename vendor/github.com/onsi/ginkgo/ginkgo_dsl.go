@@ -15,10 +15,11 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	"net/http"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/onsi/ginkgo/config"
 	"github.com/onsi/ginkgo/internal/codelocation"

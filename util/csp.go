@@ -17,17 +17,21 @@ limitations under the License.
 package util
 
 import (
-	"crypto"
-	"crypto/ecdsa"
-	"crypto/rsa"
-	"crypto/tls"
-	"crypto/x509"
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
 	"io/ioutil"
 	"strings"
 	_ "time" // for ocspSignerFromConfig
+
+	"github.com/studyzy/crypto/rsa"
+
+	"github.com/studyzy/crypto/tls"
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
+
+	"github.com/studyzy/crypto"
 
 	_ "github.com/cloudflare/cfssl/cli" // for ocspSignerFromConfig
 	"github.com/cloudflare/cfssl/config"

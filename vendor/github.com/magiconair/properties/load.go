@@ -7,9 +7,10 @@ package properties
 import (
 	"fmt"
 	"io/ioutil"
-	"net/http"
 	"os"
 	"strings"
+
+	"github.com/studyzy/net/http"
 )
 
 // Encoding specifies encoding of the input data.

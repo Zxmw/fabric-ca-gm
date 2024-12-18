@@ -10,7 +10,6 @@ package mysql
 
 import (
 	"bytes"
-	"crypto/tls"
 	"database/sql/driver"
 	"encoding/binary"
 	"errors"
@@ -18,6 +17,8 @@ import (
 	"io"
 	"math"
 	"time"
+
+	"github.com/studyzy/crypto/tls"
 )
 
 // Packets documentation:

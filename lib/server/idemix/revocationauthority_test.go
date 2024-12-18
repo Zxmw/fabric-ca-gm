@@ -8,11 +8,12 @@ package idemix_test
 
 import (
 	"bytes"
-	"crypto/ecdsa"
 	"io/ioutil"
 	"os"
 	"path"
 	"testing"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	fp256bn "github.com/hyperledger/fabric-amcl/amcl/FP256BN"
 	. "github.com/hyperledger/fabric-ca/lib/server/idemix"

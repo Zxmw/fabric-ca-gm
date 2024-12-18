@@ -1,21 +1,20 @@
 /*
-
 Package ocsp exposes OCSP signing functionality, much like the signer
 package does for certificate signing.  It also provies a basic OCSP
 responder stack for serving pre-signed OCSP responses.
-
 */
 package ocsp
 
 import (
 	"bytes"
-	"crypto"
 	"crypto/x509"
 	"crypto/x509/pkix"
 	"io/ioutil"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/studyzy/crypto"
 
 	cferr "github.com/cloudflare/cfssl/errors"
 	"github.com/cloudflare/cfssl/helpers"

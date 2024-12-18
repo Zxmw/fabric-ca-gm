@@ -10,10 +10,11 @@ import (
 	"bytes"
 	"fmt"
 	"io/ioutil"
-	"net/http"
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/studyzy/net/http"
 
 	lib "github.com/hyperledger/fabric-ca/lib"
 	. "github.com/hyperledger/fabric-ca/lib/client/credential/idemix"

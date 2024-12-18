@@ -16,7 +16,7 @@ go get github.com/grantae/certinfo
 package main
 
 import (
-  "crypto/tls"
+  "github.com/studyzy/crypto/tls"
   "fmt"
   "github.com/grantae/certinfo"
   "log"
@@ -48,7 +48,7 @@ func main() {
 package main
 
 import (
-  "crypto/x509"
+  "github.com/studyzy/crypto/x509"
   "encoding/pem"
   "fmt"
   "github.com/grantae/certinfo"

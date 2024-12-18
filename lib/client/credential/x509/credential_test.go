@@ -8,14 +8,15 @@ package x509_test
 
 import (
 	"bytes"
-	"crypto/x509"
 	"encoding/hex"
 	"fmt"
 	"io/ioutil"
-	"net/http"
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/studyzy/crypto/x509"
+	"github.com/studyzy/net/http"
 
 	"github.com/hyperledger/fabric-ca/api"
 	"github.com/hyperledger/fabric-ca/lib"

@@ -3,17 +3,19 @@ package client
 
 import (
 	"bytes"
-	"crypto/tls"
 	"encoding/json"
 	stderr "errors"
 	"fmt"
 	"io/ioutil"
 	"net"
-	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/tls"
 
 	"github.com/cloudflare/cfssl/api"
 	"github.com/cloudflare/cfssl/auth"

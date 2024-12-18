@@ -8,8 +8,9 @@ import (
 	"compress/flate"
 	"compress/gzip"
 	"io"
-	"net/http"
 	"strings"
+
+	"github.com/studyzy/net/http"
 )
 
 type compressResponseWriter struct {

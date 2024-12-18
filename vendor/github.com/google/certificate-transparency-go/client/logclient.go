@@ -21,8 +21,9 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	"net/http"
 	"strconv"
+
+	"github.com/studyzy/net/http"
 
 	ct "github.com/google/certificate-transparency-go"
 	"github.com/google/certificate-transparency-go/jsonclient"

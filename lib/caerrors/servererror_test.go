@@ -7,9 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package caerrors
 
 import (
-	"net/http"
-	"net/http/httptest"
 	"testing"
+
+	"github.com/studyzy/net/http/httptest"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -17,8 +17,9 @@ limitations under the License.
 package bccsp
 
 import (
-	"crypto"
 	"hash"
+
+	"github.com/studyzy/crypto"
 )
 
 // Key represents a cryptographic key

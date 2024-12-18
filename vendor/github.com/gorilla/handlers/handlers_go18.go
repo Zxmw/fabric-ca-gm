@@ -1,10 +1,12 @@
+//go:build go1.8
 // +build go1.8
 
 package handlers
 
 import (
 	"fmt"
-	"net/http"
+
+	"github.com/studyzy/net/http"
 )
 
 type loggingResponseWriter interface {

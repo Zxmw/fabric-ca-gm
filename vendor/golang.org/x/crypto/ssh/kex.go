@@ -5,9 +5,6 @@
 package ssh
 
 import (
-	"crypto"
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"crypto/rand"
 	"crypto/subtle"
 	"encoding/binary"
@@ -15,6 +12,12 @@ import (
 	"fmt"
 	"io"
 	"math/big"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
+
+	"github.com/studyzy/crypto"
 
 	"golang.org/x/crypto/curve25519"
 )

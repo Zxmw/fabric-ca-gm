@@ -7,7 +7,7 @@ import (
 	"bufio"
 	"io"
 	"net"
-	"net/http"
+	"github.com/studyzy/net/http"
 )
 
 // HeaderFunc is part of the http.ResponseWriter interface.

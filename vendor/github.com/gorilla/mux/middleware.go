@@ -1,8 +1,9 @@
 package mux
 
 import (
-	"net/http"
 	"strings"
+
+	"github.com/studyzy/net/http"
 )
 
 // MiddlewareFunc is a function which receives an http.Handler and returns another http.Handler.

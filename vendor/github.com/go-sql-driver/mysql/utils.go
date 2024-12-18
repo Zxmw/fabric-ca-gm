@@ -9,7 +9,6 @@
 package mysql
 
 import (
-	"crypto/tls"
 	"database/sql"
 	"database/sql/driver"
 	"encoding/binary"
@@ -21,6 +20,8 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/studyzy/crypto/tls"
 )
 
 // Registry for custom tls.Configs

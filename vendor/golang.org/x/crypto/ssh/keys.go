@@ -6,16 +6,9 @@ package ssh
 
 import (
 	"bytes"
-	"crypto"
-	"crypto/aes"
 	"crypto/cipher"
 	"crypto/dsa"
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"crypto/md5"
-	"crypto/rsa"
-	"crypto/sha256"
-	"crypto/x509"
 	"encoding/asn1"
 	"encoding/base64"
 	"encoding/hex"
@@ -25,6 +18,19 @@ import (
 	"io"
 	"math/big"
 	"strings"
+
+	"github.com/studyzy/crypto/rsa"
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/aes"
+
+	"github.com/studyzy/crypto/ecdsa"
+
+	"github.com/studyzy/crypto/sha256"
+
+	"github.com/studyzy/crypto"
 
 	"golang.org/x/crypto/ed25519"
 	"golang.org/x/crypto/ssh/internal/bcrypt_pbkdf"

@@ -17,18 +17,20 @@ package jsonclient
 import (
 	"bytes"
 	"context"
-	"crypto"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"math/rand"
-	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto"
 
 	ct "github.com/google/certificate-transparency-go"
 	"github.com/google/certificate-transparency-go/x509"

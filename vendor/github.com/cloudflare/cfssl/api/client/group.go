@@ -1,11 +1,13 @@
 package client
 
 import (
-	"crypto/tls"
 	"errors"
-	"net/http"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/tls"
 
 	"github.com/cloudflare/cfssl/auth"
 	"github.com/cloudflare/cfssl/info"

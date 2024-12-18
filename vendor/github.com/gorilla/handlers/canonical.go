@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/studyzy/net/http"
 )
 
 type canonical struct {

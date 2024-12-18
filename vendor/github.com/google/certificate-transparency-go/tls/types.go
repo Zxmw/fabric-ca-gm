@@ -15,11 +15,14 @@
 package tls
 
 import (
-	"crypto"
 	"crypto/dsa"
-	"crypto/ecdsa"
-	"crypto/rsa"
 	"fmt"
+
+	"github.com/studyzy/crypto/rsa"
+
+	"github.com/studyzy/crypto/ecdsa"
+
+	"github.com/studyzy/crypto"
 )
 
 // DigitallySigned gives information about a signature, including the algorithm used

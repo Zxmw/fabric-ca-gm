@@ -8,8 +8,9 @@ package idemix
 
 import (
 	"bytes"
-	"crypto/ecdsa"
 	"fmt"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/cloudflare/cfssl/log"
 	fp256bn "github.com/hyperledger/fabric-amcl/amcl/FP256BN"

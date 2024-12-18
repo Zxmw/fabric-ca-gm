@@ -7,16 +7,18 @@ SPDX-License-Identifier: Apache-2.0
 package lib
 
 import (
-	"crypto/tls"
-	"crypto/x509"
 	"encoding/hex"
 	"encoding/json"
 	"encoding/pem"
 	"fmt"
 	"io/ioutil"
-	"net/http"
 	"os"
 	"path/filepath"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/tls"
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/grantae/certinfo"

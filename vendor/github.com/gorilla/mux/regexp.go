@@ -7,11 +7,12 @@ package mux
 import (
 	"bytes"
 	"fmt"
-	"net/http"
 	"net/url"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/studyzy/net/http"
 )
 
 type routeRegexpOptions struct {

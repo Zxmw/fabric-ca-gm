@@ -7,12 +7,14 @@ SPDX-License-Identifier: Apache-2.0
 package utils
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"encoding/asn1"
 	"errors"
 	"fmt"
 	"math/big"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
 )
 
 type ECDSASignature struct {

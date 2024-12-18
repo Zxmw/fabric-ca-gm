@@ -9,8 +9,9 @@ package ssh
 import (
 	"crypto/hmac"
 	"crypto/sha1"
-	"crypto/sha256"
 	"hash"
+
+	"github.com/studyzy/crypto/sha256"
 )
 
 type macMode struct {

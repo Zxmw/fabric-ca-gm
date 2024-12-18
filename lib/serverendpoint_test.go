@@ -9,9 +9,11 @@ package lib
 import (
 	"encoding/json"
 	"io/ioutil"
-	"net/http"
-	"net/http/httptest"
 	"testing"
+
+	"github.com/studyzy/net/http/httptest"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/cloudflare/cfssl/api"
 	"github.com/hyperledger/fabric-ca/lib/caerrors"

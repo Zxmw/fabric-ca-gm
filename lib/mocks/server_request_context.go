@@ -2,7 +2,7 @@
 package mocks
 
 import certificaterequest "github.com/hyperledger/fabric-ca/lib/server/certificaterequest"
-import http "net/http"
+import http "github.com/studyzy/net/http"
 
 import mock "github.com/stretchr/testify/mock"
 import sqlx "github.com/jmoiron/sqlx"

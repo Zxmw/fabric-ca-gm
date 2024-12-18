@@ -7,10 +7,11 @@ package mux
 import (
 	"errors"
 	"fmt"
-	"net/http"
 	"net/url"
 	"regexp"
 	"strings"
+
+	"github.com/studyzy/net/http"
 )
 
 // Route stores information to match a request and build URLs.

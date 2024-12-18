@@ -6,9 +6,10 @@
 package assert
 
 import (
-	http "net/http"
 	url "net/url"
 	time "time"
+
+	http "github.com/studyzy/net/http"
 )
 
 // Conditionf uses a Comparison to assert a complex condition.

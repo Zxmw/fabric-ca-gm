@@ -18,12 +18,8 @@ package tcert
 
 import (
 	"bytes"
-	"crypto/aes"
 	"crypto/cipher"
-	"crypto/ecdsa"
 	"crypto/rand"
-	"crypto/rsa"
-	"crypto/x509"
 	"encoding/base64"
 	"encoding/pem"
 	"errors"
@@ -32,6 +28,13 @@ import (
 	"io/ioutil"
 	"math/big"
 	"time"
+
+	"github.com/studyzy/crypto/rsa"
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/aes"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/cloudflare/cfssl/log"
 )

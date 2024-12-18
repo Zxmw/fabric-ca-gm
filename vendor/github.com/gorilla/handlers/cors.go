@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"net/http"
 	"strconv"
 	"strings"
+
+	"github.com/studyzy/net/http"
 )
 
 // CORSOption represents a functional option for configuring the CORS middleware.
@@ -139,7 +140,7 @@ func (ch *cors) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 // Example:
 //
 //  import (
-//      "net/http"
+//      "github.com/studyzy/net/http"
 //
 //      "github.com/gorilla/handlers"
 //      "github.com/gorilla/mux"

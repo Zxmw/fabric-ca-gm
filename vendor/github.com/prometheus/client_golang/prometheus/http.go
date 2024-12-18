@@ -18,11 +18,12 @@ import (
 	"compress/gzip"
 	"io"
 	"net"
-	"net/http"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/prometheus/common/expfmt"
 )

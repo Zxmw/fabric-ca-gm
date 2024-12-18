@@ -5,10 +5,12 @@
 package x509
 
 import (
-	"crypto/ecdsa"
-	"crypto/rsa"
 	"errors"
 	"fmt"
+
+	"github.com/studyzy/crypto/rsa"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/google/certificate-transparency-go/asn1"
 	"github.com/google/certificate-transparency-go/x509/pkix"

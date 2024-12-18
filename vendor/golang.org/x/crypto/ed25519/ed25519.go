@@ -5,6 +5,7 @@
 // In Go 1.13, the ed25519 package was promoted to the standard library as
 // crypto/ed25519, and this package became a wrapper for the standard library one.
 //
+//go:build !go1.13
 // +build !go1.13
 
 // Package ed25519 implements the Ed25519 signature algorithm. See
@@ -22,12 +23,13 @@ package ed25519
 
 import (
 	"bytes"
-	"crypto"
 	cryptorand "crypto/rand"
 	"crypto/sha512"
 	"errors"
 	"io"
 	"strconv"
+
+	"github.com/studyzy/crypto"
 
 	"golang.org/x/crypto/ed25519/internal/edwards25519"
 )

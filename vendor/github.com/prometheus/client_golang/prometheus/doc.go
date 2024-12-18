@@ -21,55 +21,54 @@
 // All exported functions and methods are safe to be used concurrently unless
 // specified otherwise.
 //
-// A Basic Example
+// # A Basic Example
 //
 // As a starting point, a very basic usage example:
 //
-//    package main
+//	package main
 //
-//    import (
-//    	"log"
-//    	"net/http"
+//	import (
+//		"log"
+//		"github.com/studyzy/net/http"
 //
-//    	"github.com/prometheus/client_golang/prometheus"
-//    	"github.com/prometheus/client_golang/prometheus/promhttp"
-//    )
+//		"github.com/prometheus/client_golang/prometheus"
+//		"github.com/prometheus/client_golang/prometheus/promhttp"
+//	)
 //
-//    var (
-//    	cpuTemp = prometheus.NewGauge(prometheus.GaugeOpts{
-//    		Name: "cpu_temperature_celsius",
-//    		Help: "Current temperature of the CPU.",
-//    	})
-//    	hdFailures = prometheus.NewCounterVec(
-//    		prometheus.CounterOpts{
-//    			Name: "hd_errors_total",
-//    			Help: "Number of hard-disk errors.",
-//    		},
-//    		[]string{"device"},
-//    	)
-//    )
+//	var (
+//		cpuTemp = prometheus.NewGauge(prometheus.GaugeOpts{
+//			Name: "cpu_temperature_celsius",
+//			Help: "Current temperature of the CPU.",
+//		})
+//		hdFailures = prometheus.NewCounterVec(
+//			prometheus.CounterOpts{
+//				Name: "hd_errors_total",
+//				Help: "Number of hard-disk errors.",
+//			},
+//			[]string{"device"},
+//		)
+//	)
 //
-//    func init() {
-//    	// Metrics have to be registered to be exposed:
-//    	prometheus.MustRegister(cpuTemp)
-//    	prometheus.MustRegister(hdFailures)
-//    }
+//	func init() {
+//		// Metrics have to be registered to be exposed:
+//		prometheus.MustRegister(cpuTemp)
+//		prometheus.MustRegister(hdFailures)
+//	}
 //
-//    func main() {
-//    	cpuTemp.Set(65.3)
-//    	hdFailures.With(prometheus.Labels{"device":"/dev/sda"}).Inc()
+//	func main() {
+//		cpuTemp.Set(65.3)
+//		hdFailures.With(prometheus.Labels{"device":"/dev/sda"}).Inc()
 //
-//    	// The Handler function provides a default handler to expose metrics
-//    	// via an HTTP server. "/metrics" is the usual endpoint for that.
-//    	http.Handle("/metrics", promhttp.Handler())
-//    	log.Fatal(http.ListenAndServe(":8080", nil))
-//    }
-//
+//		// The Handler function provides a default handler to expose metrics
+//		// via an HTTP server. "/metrics" is the usual endpoint for that.
+//		http.Handle("/metrics", promhttp.Handler())
+//		log.Fatal(http.ListenAndServe(":8080", nil))
+//	}
 //
 // This is a complete program that exports two metrics, a Gauge and a Counter,
 // the latter with a label attached to turn it into a (one-dimensional) vector.
 //
-// Metrics
+// # Metrics
 //
 // The number of exported identifiers in this package might appear a bit
 // overwhelming. However, in addition to the basic plumbing shown in the example
@@ -104,7 +103,7 @@
 // …Opts struct, i.e. GaugeOpts, CounterOpts, SummaryOpts, HistogramOpts, or
 // UntypedOpts.
 //
-// Custom Collectors and constant Metrics
+// # Custom Collectors and constant Metrics
 //
 // While you could create your own implementations of Metric, most likely you
 // will only ever implement the Collector interface on your own. At a first
@@ -142,7 +141,7 @@
 // a metric, GaugeFunc, CounterFunc, or UntypedFunc might be interesting
 // shortcuts.
 //
-// Advanced Uses of the Registry
+// # Advanced Uses of the Registry
 //
 // While MustRegister is the by far most common way of registering a Collector,
 // sometimes you might want to handle the errors the registration might cause.
@@ -177,7 +176,7 @@
 // NewProcessCollector). With a custom registry, you are in control and decide
 // yourself about the Collectors to register.
 //
-// HTTP Exposition
+// # HTTP Exposition
 //
 // The Registry implements the Gatherer interface. The caller of the Gather
 // method can then expose the gathered metrics in some way. Usually, the metrics
@@ -185,16 +184,16 @@
 // above. The tools to expose metrics via HTTP are in the promhttp sub-package.
 // (The top-level functions in the prometheus package are deprecated.)
 //
-// Pushing to the Pushgateway
+// # Pushing to the Pushgateway
 //
 // Function for pushing to the Pushgateway can be found in the push sub-package.
 //
-// Graphite Bridge
+// # Graphite Bridge
 //
 // Functions and examples to push metrics from a Gatherer to Graphite can be
 // found in the graphite sub-package.
 //
-// Other Means of Exposition
+// # Other Means of Exposition
 //
 // More ways of exposing metrics can easily be added by following the approaches
 // of the existing implementations.

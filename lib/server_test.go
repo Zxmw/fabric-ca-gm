@@ -8,14 +8,11 @@ package lib_test
 
 import (
 	"bytes"
-	"crypto/tls"
-	"crypto/x509"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"math/rand"
 	"net"
-	"net/http"
 	"os"
 	"path"
 	"path/filepath"
@@ -24,6 +21,11 @@ import (
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/tls"
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/cloudflare/cfssl/certdb"
 	"github.com/cloudflare/cfssl/csr"

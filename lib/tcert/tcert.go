@@ -17,7 +17,6 @@ limitations under the License.
 package tcert
 
 import (
-	"crypto/ecdsa"
 	"crypto/hmac"
 	"crypto/rand"
 	"crypto/sha512"
@@ -29,6 +28,8 @@ import (
 	"math/big"
 	"strconv"
 	"time"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/hyperledger/fabric-ca/api"

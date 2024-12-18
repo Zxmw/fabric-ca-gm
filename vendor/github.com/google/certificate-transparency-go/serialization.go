@@ -15,12 +15,14 @@
 package ct
 
 import (
-	"crypto"
-	"crypto/sha256"
 	"encoding/json"
 	"fmt"
 	"strings"
 	"time"
+
+	"github.com/studyzy/crypto/sha256"
+
+	"github.com/studyzy/crypto"
 
 	"github.com/google/certificate-transparency-go/tls"
 	"github.com/google/certificate-transparency-go/x509"

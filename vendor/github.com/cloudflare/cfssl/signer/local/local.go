@@ -3,9 +3,7 @@ package local
 
 import (
 	"bytes"
-	"crypto"
 	"crypto/rand"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/hex"
@@ -14,9 +12,15 @@ import (
 	"io"
 	"math/big"
 	"net"
-	"net/http"
 	"net/mail"
 	"os"
+
+	"github.com/studyzy/crypto/x509"
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto"
+
+	"time"
 
 	"github.com/cloudflare/cfssl/certdb"
 	"github.com/cloudflare/cfssl/config"
@@ -25,11 +29,10 @@ import (
 	"github.com/cloudflare/cfssl/info"
 	"github.com/cloudflare/cfssl/log"
 	"github.com/cloudflare/cfssl/signer"
-	"github.com/google/certificate-transparency-go"
+	ct "github.com/google/certificate-transparency-go"
 	"github.com/google/certificate-transparency-go/client"
 	"github.com/google/certificate-transparency-go/jsonclient"
 	"golang.org/x/net/context"
-	"time"
 )
 
 // Signer contains a signer that uses the standard library to

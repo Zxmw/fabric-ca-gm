@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package operations
 
 import (
-	"crypto/tls"
-	"crypto/x509"
 	"io/ioutil"
+
+	"github.com/studyzy/crypto/tls"
+	"github.com/studyzy/crypto/x509"
 )
 
 var (

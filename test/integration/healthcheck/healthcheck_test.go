@@ -10,9 +10,10 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net"
-	"net/http"
 	"os"
 	"testing"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/hyperledger/fabric-ca/lib"
 	"github.com/hyperledger/fabric-lib-go/healthz"

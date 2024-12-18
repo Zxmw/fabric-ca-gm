@@ -5,18 +5,20 @@ package revoke
 
 import (
 	"bytes"
-	"crypto"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/base64"
 	"encoding/pem"
 	"errors"
 	"io"
 	"io/ioutil"
-	"net/http"
 	neturl "net/url"
 	"sync"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto"
 
 	"golang.org/x/crypto/ocsp"
 

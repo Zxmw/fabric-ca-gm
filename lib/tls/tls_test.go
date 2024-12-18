@@ -18,8 +18,6 @@ package tls
 
 import (
 	"crypto/rand"
-	"crypto/rsa"
-	"crypto/x509"
 	"encoding/pem"
 	"errors"
 	"fmt"
@@ -27,6 +25,9 @@ import (
 	"os"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/rsa"
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/stretchr/testify/assert"
 )
