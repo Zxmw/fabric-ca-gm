@@ -7,12 +7,13 @@ package ocsp
 
 import (
 	"bytes"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"io/ioutil"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/studyzy/crypto"
 

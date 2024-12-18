@@ -20,7 +20,6 @@ import (
 	"crypto/hmac"
 	"crypto/rand"
 	"crypto/sha512"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/base64"
@@ -28,6 +27,8 @@ import (
 	"math/big"
 	"strconv"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/studyzy/crypto/ecdsa"
 

@@ -18,7 +18,6 @@ package command
 
 import (
 	"bytes"
-	"crypto/x509"
 	"encoding/pem"
 	"fmt"
 	"net/url"
@@ -26,6 +25,8 @@ import (
 	"path"
 	"path/filepath"
 	"strings"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/hyperledger/fabric-ca/api"

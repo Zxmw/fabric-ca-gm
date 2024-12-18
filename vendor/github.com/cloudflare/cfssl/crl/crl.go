@@ -3,13 +3,14 @@ package crl
 
 import (
 	"crypto/rand"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"math/big"
 	"os"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/studyzy/crypto"
 

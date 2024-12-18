@@ -7,7 +7,6 @@ SPDX-License-Identifier: Apache-2.0
 package main
 
 import (
-	"crypto/x509"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -16,6 +15,8 @@ import (
 	"path/filepath"
 	"regexp"
 	"testing"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/hyperledger/fabric-ca/api"

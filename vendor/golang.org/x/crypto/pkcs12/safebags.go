@@ -5,9 +5,10 @@
 package pkcs12
 
 import (
-	"crypto/x509"
 	"encoding/asn1"
 	"errors"
+
+	"github.com/studyzy/crypto/x509"
 )
 
 var (

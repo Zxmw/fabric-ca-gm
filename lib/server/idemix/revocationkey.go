@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package idemix
 
 import (
-	"crypto/x509"
 	"encoding/pem"
 	"io/ioutil"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/studyzy/crypto/ecdsa"
 

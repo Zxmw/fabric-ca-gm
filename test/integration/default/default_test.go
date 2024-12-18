@@ -9,7 +9,6 @@ package defserver
 import (
 	"bytes"
 	"crypto/rand"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/pem"
 	"fmt"
@@ -19,6 +18,8 @@ import (
 	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/studyzy/crypto/elliptic"
 

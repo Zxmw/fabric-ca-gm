@@ -7,13 +7,14 @@ SPDX-License-Identifier: Apache-2.0
 package idemix
 
 import (
-	"crypto/x509"
 	"encoding/pem"
 	"fmt"
 	"reflect"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/cloudflare/cfssl/log"
 	proto "github.com/golang/protobuf/proto"

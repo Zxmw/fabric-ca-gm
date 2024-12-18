@@ -16,9 +16,10 @@ limitations under the License.
 package sw
 
 import (
-	"crypto/x509"
 	"errors"
 	"fmt"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/studyzy/crypto/elliptic"
 
