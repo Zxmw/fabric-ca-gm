@@ -14,9 +14,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/studyzy/crypto/elliptic"
+	"github.com/chenjz24/crypto/elliptic"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric-ca/lib"
 	dbutil "github.com/hyperledger/fabric-ca/lib/server/db/util"

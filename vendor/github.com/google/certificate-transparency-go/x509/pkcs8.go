@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/studyzy/crypto/rsa"
+	"github.com/chenjz24/crypto/rsa"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
 	"github.com/google/certificate-transparency-go/asn1"
 	"github.com/google/certificate-transparency-go/x509/pkix"

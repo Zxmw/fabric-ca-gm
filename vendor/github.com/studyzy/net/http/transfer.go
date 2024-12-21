@@ -11,8 +11,6 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"github.com/studyzy/net/http/httptrace"
-	"github.com/studyzy/net/http/internal"
 	"net/textproto"
 	"reflect"
 	"sort"
@@ -20,6 +18,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/chenjz24/net/http/httptrace"
+	"github.com/chenjz24/net/http/internal"
 
 	"golang.org/x/net/http/httpguts"
 )

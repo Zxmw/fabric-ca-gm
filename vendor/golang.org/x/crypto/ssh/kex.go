@@ -13,11 +13,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/studyzy/crypto/elliptic"
+	"github.com/chenjz24/crypto/elliptic"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
 	"golang.org/x/crypto/curve25519"
 )

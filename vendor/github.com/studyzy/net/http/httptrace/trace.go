@@ -8,12 +8,13 @@ package httptrace
 
 import (
 	"context"
-	"github.com/studyzy/crypto/tls"
-	"github.com/studyzy/net/http/httptrace/internal/nettrace"
 	"net"
 	"net/textproto"
 	"reflect"
 	"time"
+
+	"github.com/chenjz24/crypto/tls"
+	"github.com/chenjz24/net/http/httptrace/internal/nettrace"
 )
 
 // unique type to prevent assignment.

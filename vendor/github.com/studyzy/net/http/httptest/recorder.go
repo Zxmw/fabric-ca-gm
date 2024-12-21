@@ -8,9 +8,10 @@ import (
 	"bytes"
 	"fmt"
 	"io/ioutil"
-	"github.com/studyzy/net/http"
 	"strconv"
 	"strings"
+
+	"github.com/chenjz24/net/http"
 
 	"golang.org/x/net/http/httpguts"
 )

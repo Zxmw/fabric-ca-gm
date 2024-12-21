@@ -11,8 +11,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/studyzy/crypto/tls"
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/tls"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/hyperledger/fabric-ca/lib/server/operations"
 	. "github.com/onsi/ginkgo"

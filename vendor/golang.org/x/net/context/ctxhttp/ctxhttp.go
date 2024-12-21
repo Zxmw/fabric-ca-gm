@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 // Do sends an HTTP request with the provided http.Client and returns

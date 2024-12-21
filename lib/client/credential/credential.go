@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package credential
 
 import (
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/hyperledger/fabric-ca/api"
 )

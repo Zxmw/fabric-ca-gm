@@ -19,7 +19,7 @@ import (
 	"math"
 	"mime"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	dto "github.com/prometheus/client_model/go"
 

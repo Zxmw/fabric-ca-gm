@@ -9,12 +9,13 @@ import (
 	"container/list"
 	"crypto/ed25519"
 	"crypto/rand"
-	"github.com/studyzy/crypto/rsa"
 	"crypto/sha512"
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/elliptic"
-	"github.com/studyzy/crypto/x509"
+
+	"github.com/chenjz24/crypto"
+	"github.com/chenjz24/crypto/ecdsa"
+	"github.com/chenjz24/crypto/elliptic"
+	"github.com/chenjz24/crypto/rsa"
+	"github.com/chenjz24/crypto/x509"
 	"golang.org/x/sys/cpu"
 
 	"errors"

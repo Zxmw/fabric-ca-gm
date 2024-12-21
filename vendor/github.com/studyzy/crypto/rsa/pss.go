@@ -15,7 +15,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 )
 
 func emsaPSSEncode(mHash []byte, emBits int, salt []byte, hash hash.Hash) ([]byte, error) {

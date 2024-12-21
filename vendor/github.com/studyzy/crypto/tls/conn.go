@@ -10,7 +10,6 @@ import (
 	"bytes"
 	"crypto/cipher"
 	"crypto/subtle"
-	"github.com/studyzy/crypto/x509"
 	"errors"
 	"fmt"
 	"io"
@@ -18,6 +17,8 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/chenjz24/crypto/x509"
 )
 
 // A Conn represents a secured connection.

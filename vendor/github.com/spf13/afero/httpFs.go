@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 type httpDir struct {

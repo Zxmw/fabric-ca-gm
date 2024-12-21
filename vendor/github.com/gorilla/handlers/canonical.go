@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 type canonical struct {

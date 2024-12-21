@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/studyzy/crypto/rsa"
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/rsa"
+	"github.com/chenjz24/crypto/x509"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
 	"github.com/cloudflare/cfssl/certdb"
 	"github.com/cloudflare/cfssl/config"

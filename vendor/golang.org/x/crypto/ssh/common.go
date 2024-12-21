@@ -11,12 +11,12 @@ import (
 	"math"
 	"sync"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
 	_ "crypto/sha1"
 	_ "crypto/sha512"
 
-	_ "github.com/studyzy/crypto/sha256"
+	_ "github.com/chenjz24/crypto/sha256"
 )
 
 // These are string constants in the SSH protocol.

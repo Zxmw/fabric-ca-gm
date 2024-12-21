@@ -15,11 +15,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
 	"golang.org/x/crypto/ocsp"
 

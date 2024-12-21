@@ -25,13 +25,13 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/studyzy/crypto/rsa"
+	"github.com/chenjz24/crypto/rsa"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
-	_ "github.com/studyzy/crypto/sha256" // For registration side-effect
+	_ "github.com/chenjz24/crypto/sha256" // For registration side-effect
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
 	"github.com/google/certificate-transparency-go/asn1"
 )

@@ -11,9 +11,10 @@ import (
 	"crypto/sha512"
 	"errors"
 	"fmt"
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/sha256"
 	"hash"
+
+	"github.com/chenjz24/crypto"
+	"github.com/chenjz24/crypto/sha256"
 )
 
 // Split a premaster secret in two as specified in RFC 4346, Section 5.

@@ -6,13 +6,14 @@ package tls
 
 import (
 	"crypto/md5"
-	"github.com/studyzy/crypto/rsa"
 	"crypto/sha1"
 	"errors"
 	"fmt"
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/x509"
 	"io"
+
+	"github.com/chenjz24/crypto"
+	"github.com/chenjz24/crypto/rsa"
+	"github.com/chenjz24/crypto/x509"
 )
 
 var errClientKeyExchange = errors.New("tls: invalid ClientKeyExchange message")

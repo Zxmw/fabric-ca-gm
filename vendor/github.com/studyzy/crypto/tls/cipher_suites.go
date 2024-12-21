@@ -5,17 +5,18 @@
 package tls
 
 import (
-	"github.com/studyzy/crypto/aes"
 	"crypto/cipher"
 	"crypto/des"
 	"crypto/hmac"
 	"crypto/rc4"
 	"crypto/sha1"
 	"fmt"
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/sha256"
-	"github.com/studyzy/crypto/x509"
 	"hash"
+
+	"github.com/chenjz24/crypto"
+	"github.com/chenjz24/crypto/aes"
+	"github.com/chenjz24/crypto/sha256"
+	"github.com/chenjz24/crypto/x509"
 
 	"golang.org/x/crypto/chacha20poly1305"
 )

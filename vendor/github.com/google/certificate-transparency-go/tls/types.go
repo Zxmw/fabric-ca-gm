@@ -18,11 +18,11 @@ import (
 	"crypto/dsa"
 	"fmt"
 
-	"github.com/studyzy/crypto/rsa"
+	"github.com/chenjz24/crypto/rsa"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 )
 
 // DigitallySigned gives information about a signature, including the algorithm used

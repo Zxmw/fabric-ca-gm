@@ -22,10 +22,10 @@ import (
 	"flag"
 	"time"
 	"io/ioutil"
-	"github.com/studyzy/crypto/rsa"
+	"github.com/chenjz24/crypto/rsa"
 	_rand "crypto/rand"
 	"encoding/pem"
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
 	"golang.org/x/crypto/ssh"
 	"github.com/pkg/sftp"

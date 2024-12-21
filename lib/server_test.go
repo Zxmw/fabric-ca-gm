@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
-	"github.com/studyzy/crypto/tls"
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/tls"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/cloudflare/cfssl/certdb"
 	"github.com/cloudflare/cfssl/csr"

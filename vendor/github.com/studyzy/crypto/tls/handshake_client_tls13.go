@@ -7,12 +7,13 @@ package tls
 import (
 	"bytes"
 	"crypto/hmac"
-	"github.com/studyzy/crypto/rsa"
 	"errors"
-	"github.com/studyzy/crypto"
 	"hash"
 	"sync/atomic"
 	"time"
+
+	"github.com/chenjz24/crypto"
+	"github.com/chenjz24/crypto/rsa"
 )
 
 type clientHandshakeStateTLS13 struct {

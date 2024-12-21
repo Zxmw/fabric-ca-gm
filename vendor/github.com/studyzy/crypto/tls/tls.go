@@ -14,17 +14,18 @@ package tls
 import (
 	"bytes"
 	"crypto/ed25519"
-	"github.com/studyzy/crypto/rsa"
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/x509"
 	"io/ioutil"
 	"net"
 	"strings"
 	"time"
+
+	"github.com/chenjz24/crypto"
+	"github.com/chenjz24/crypto/ecdsa"
+	"github.com/chenjz24/crypto/rsa"
+	"github.com/chenjz24/crypto/x509"
 )
 
 // Server returns a new TLS server side connection

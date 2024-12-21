@@ -6,7 +6,7 @@ package handlers
 import (
 	"fmt"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 type loggingResponseWriter interface {

@@ -13,8 +13,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/studyzy/crypto/x509"
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/crypto/x509"
+	"github.com/chenjz24/net/http"
 
 	"github.com/cloudflare/cfssl/csr"
 	"github.com/cloudflare/cfssl/log"

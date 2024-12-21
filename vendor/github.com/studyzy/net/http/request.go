@@ -10,7 +10,6 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	"github.com/studyzy/crypto/tls"
 	"encoding/base64"
 	"errors"
 	"fmt"
@@ -19,12 +18,14 @@ import (
 	"mime"
 	"mime/multipart"
 	"net"
-	"github.com/studyzy/net/http/httptrace"
 	"net/textproto"
 	"net/url"
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/chenjz24/crypto/tls"
+	"github.com/chenjz24/net/http/httptrace"
 
 	"golang.org/x/net/idna"
 )

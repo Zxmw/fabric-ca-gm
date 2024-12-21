@@ -7,15 +7,16 @@ package tls
 import (
 	"bytes"
 	"crypto/ed25519"
-	"github.com/studyzy/crypto/rsa"
 	"encoding/asn1"
 	"errors"
 	"fmt"
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/elliptic"
 	"hash"
 	"io"
+
+	"github.com/chenjz24/crypto"
+	"github.com/chenjz24/crypto/ecdsa"
+	"github.com/chenjz24/crypto/elliptic"
+	"github.com/chenjz24/crypto/rsa"
 )
 
 // verifyHandshakeSignature verifies a signature against pre-hashed

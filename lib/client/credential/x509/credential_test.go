@@ -15,8 +15,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/studyzy/crypto/x509"
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/crypto/x509"
+	"github.com/chenjz24/net/http"
 
 	"github.com/hyperledger/fabric-ca/api"
 	"github.com/hyperledger/fabric-ca/lib"

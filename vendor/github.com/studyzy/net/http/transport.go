@@ -14,13 +14,11 @@ import (
 	"compress/gzip"
 	"container/list"
 	"context"
-	"github.com/studyzy/crypto/tls"
 	"errors"
 	"fmt"
 	"io"
 	"log"
 	"net"
-	"github.com/studyzy/net/http/httptrace"
 	"net/textproto"
 	"net/url"
 	"os"
@@ -29,6 +27,9 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/chenjz24/crypto/tls"
+	"github.com/chenjz24/net/http/httptrace"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http/httpproxy"

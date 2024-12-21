@@ -10,7 +10,7 @@ import (
 	"path"
 	"regexp"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 var (

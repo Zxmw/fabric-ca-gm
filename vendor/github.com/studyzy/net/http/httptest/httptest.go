@@ -8,11 +8,12 @@ package httptest
 import (
 	"bufio"
 	"bytes"
-	"github.com/studyzy/crypto/tls"
 	"io"
 	"io/ioutil"
-	"github.com/studyzy/net/http"
 	"strings"
+
+	"github.com/chenjz24/crypto/tls"
+	"github.com/chenjz24/net/http"
 )
 
 // NewRequest returns a new incoming server Request, suitable

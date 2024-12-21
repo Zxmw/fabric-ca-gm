@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
 	ber "gopkg.in/asn1-ber.v1"
 )

@@ -13,7 +13,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
 	fp256bn "github.com/hyperledger/fabric-amcl/amcl/FP256BN"
 	. "github.com/hyperledger/fabric-ca/lib/server/idemix"

@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/studyzy/net/http/httptest"
+	"github.com/chenjz24/net/http/httptest"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 // httpCode is a helper that returns HTTP code of the response. It returns -1 and

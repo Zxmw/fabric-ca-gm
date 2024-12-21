@@ -11,7 +11,7 @@ import (
 	"crypto/sha1"
 	"hash"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 )
 
 type macMode struct {

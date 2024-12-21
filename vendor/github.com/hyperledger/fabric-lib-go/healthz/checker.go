@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 type AlreadyRegisteredError string

@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/hyperledger/fabric-ca/lib/server/operations"
 	"github.com/hyperledger/fabric/common/metrics/disabled"

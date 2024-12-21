@@ -33,7 +33,7 @@ A simple example using `handlers.LoggingHandler` and `handlers.CompressHandler`:
 
 ```go
 import (
-    "github.com/studyzy/net/http"
+    "github.com/chenjz24/net/http"
     "github.com/gorilla/handlers"
 )
 

@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
 	cferr "github.com/cloudflare/cfssl/errors"
 	"github.com/cloudflare/cfssl/helpers"

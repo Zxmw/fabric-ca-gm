@@ -9,9 +9,9 @@ package caerrors
 import (
 	"testing"
 
-	"github.com/studyzy/net/http/httptest"
+	"github.com/chenjz24/net/http/httptest"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/stretchr/testify/assert"
 )

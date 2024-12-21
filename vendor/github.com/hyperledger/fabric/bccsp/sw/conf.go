@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/studyzy/crypto/elliptic"
+	"github.com/chenjz24/crypto/elliptic"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 
 	"golang.org/x/crypto/sha3"
 )

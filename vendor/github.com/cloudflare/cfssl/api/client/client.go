@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
 	"github.com/cloudflare/cfssl/api"
 	"github.com/cloudflare/cfssl/auth"

@@ -11,9 +11,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/studyzy/net/http/httptest"
+	"github.com/chenjz24/net/http/httptest"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/cloudflare/cfssl/api"
 	"github.com/hyperledger/fabric-ca/lib/caerrors"

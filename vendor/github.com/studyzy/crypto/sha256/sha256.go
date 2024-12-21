@@ -1,10 +1,11 @@
 package sha256
 
 import (
-	"github.com/studyzy/crypto"
 	"hash"
 
-	"github.com/studyzy/crypto/internal/sm3"
+	"github.com/chenjz24/crypto"
+
+	"github.com/chenjz24/crypto/internal/sm3"
 )
 
 func init() {

@@ -1,4 +1,4 @@
-module github.com/studyzy/crypto
+module github.com/chenjz24/crypto
 
 go 1.14
 

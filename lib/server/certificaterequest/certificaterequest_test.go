@@ -8,7 +8,7 @@ package certificaterequest
 
 import (
 	//	"bytes"
-	//	"github.com/studyzy/net/http"
+	//	"github.com/chenjz24/net/http"
 	"errors"
 	"testing"
 	"time"

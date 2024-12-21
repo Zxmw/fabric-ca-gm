@@ -8,7 +8,7 @@ import (
 	"encoding/asn1"
 	"errors"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 )
 
 var (

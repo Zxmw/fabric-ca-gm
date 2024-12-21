@@ -25,12 +25,13 @@ import (
 	"encoding/asn1"
 	"encoding/binary"
 	"errors"
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/elliptic"
 	"io"
 	"math/big"
 
-	"github.com/studyzy/crypto/internal/sm3"
+	"github.com/chenjz24/crypto"
+	"github.com/chenjz24/crypto/elliptic"
+
+	"github.com/chenjz24/crypto/internal/sm3"
 )
 
 var (

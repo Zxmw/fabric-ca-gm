@@ -8,7 +8,7 @@
 package sha3
 
 import (
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 )
 
 func init() {

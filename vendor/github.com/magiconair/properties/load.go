@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 // Encoding specifies encoding of the input data.

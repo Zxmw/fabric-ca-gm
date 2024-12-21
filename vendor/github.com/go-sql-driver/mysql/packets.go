@@ -18,7 +18,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 )
 
 // Packets documentation:

@@ -8,8 +8,8 @@ SPDX-License-Identifier: Apache-2.0
 package mocks
 
 import (
+	ecdsa "github.com/chenjz24/crypto/ecdsa"
 	FP256BN "github.com/hyperledger/fabric-amcl/amcl/FP256BN"
-	ecdsa "github.com/studyzy/crypto/ecdsa"
 
 	idemix "github.com/hyperledger/fabric/idemix"
 

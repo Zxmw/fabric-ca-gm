@@ -5,12 +5,13 @@
 package x509
 
 import (
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/elliptic"
 	"encoding/asn1"
 	"errors"
 	"fmt"
 	"math/big"
+
+	"github.com/chenjz24/crypto/ecdsa"
+	"github.com/chenjz24/crypto/elliptic"
 )
 
 const ecPrivKeyVersion = 1

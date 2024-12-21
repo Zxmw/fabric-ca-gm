@@ -13,7 +13,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 )
 
 // An AuthenticatedRequest contains a request and authentication

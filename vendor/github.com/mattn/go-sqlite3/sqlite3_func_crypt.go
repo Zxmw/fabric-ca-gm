@@ -9,7 +9,7 @@ import (
 	"crypto/sha1"
 	"crypto/sha512"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 )
 
 // This file provides several different implementations for the

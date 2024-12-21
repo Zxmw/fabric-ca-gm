@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	lib "github.com/hyperledger/fabric-ca/lib"
 	. "github.com/hyperledger/fabric-ca/lib/client/credential/idemix"

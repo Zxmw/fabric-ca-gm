@@ -29,12 +29,12 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/elliptic"
-	"github.com/studyzy/crypto/rsa"
+	"github.com/chenjz24/crypto"
+	"github.com/chenjz24/crypto/ecdsa"
+	"github.com/chenjz24/crypto/elliptic"
+	"github.com/chenjz24/crypto/rsa"
 
-	_ "github.com/studyzy/crypto/sha256"
+	_ "github.com/chenjz24/crypto/sha256"
 
 	"golang.org/x/crypto/cryptobyte"
 	cryptobyte_asn1 "golang.org/x/crypto/cryptobyte/asn1"

@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/studyzy/crypto/rsa"
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/rsa"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/stretchr/testify/assert"
 )

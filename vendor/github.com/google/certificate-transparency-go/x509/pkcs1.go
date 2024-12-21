@@ -8,7 +8,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/studyzy/crypto/rsa"
+	"github.com/chenjz24/crypto/rsa"
 
 	"github.com/google/certificate-transparency-go/asn1"
 )

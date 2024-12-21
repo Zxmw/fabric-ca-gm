@@ -20,8 +20,8 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/studyzy/crypto/tls"
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/tls"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/hyperledger/fabric-ca/util"

@@ -31,9 +31,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
-	"github.com/studyzy/crypto/internal/randutil"
+	"github.com/chenjz24/crypto/internal/randutil"
 )
 
 var bigZero = big.NewInt(0)

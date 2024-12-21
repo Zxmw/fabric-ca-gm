@@ -3,7 +3,7 @@ package ldap
 import (
 	"time"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 )
 
 // Client knows how to interact with an LDAP server

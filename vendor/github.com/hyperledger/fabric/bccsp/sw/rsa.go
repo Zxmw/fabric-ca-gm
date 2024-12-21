@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/studyzy/crypto/rsa"
+	"github.com/chenjz24/crypto/rsa"
 
 	"github.com/hyperledger/fabric/bccsp"
 )

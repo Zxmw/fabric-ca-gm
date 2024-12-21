@@ -29,7 +29,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
 	"golang.org/x/crypto/ed25519/internal/edwards25519"
 )

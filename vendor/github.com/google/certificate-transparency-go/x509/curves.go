@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/studyzy/crypto/elliptic"
+	"github.com/chenjz24/crypto/elliptic"
 )
 
 // This file holds ECC curves that are not supported by the main Go crypto/elliptic

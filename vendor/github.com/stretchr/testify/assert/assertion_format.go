@@ -9,7 +9,7 @@ import (
 	url "net/url"
 	time "time"
 
-	http "github.com/studyzy/net/http"
+	http "github.com/chenjz24/net/http"
 )
 
 // Conditionf uses a Comparison to assert a complex condition.

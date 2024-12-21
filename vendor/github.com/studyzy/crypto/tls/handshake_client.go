@@ -7,18 +7,19 @@ package tls
 import (
 	"bytes"
 	"crypto/ed25519"
-	"github.com/studyzy/crypto/rsa"
 	"crypto/subtle"
 	"errors"
 	"fmt"
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/x509"
 	"io"
 	"net"
 	"strings"
 	"sync/atomic"
 	"time"
+
+	"github.com/chenjz24/crypto"
+	"github.com/chenjz24/crypto/ecdsa"
+	"github.com/chenjz24/crypto/rsa"
+	"github.com/chenjz24/crypto/x509"
 )
 
 type clientHandshakeState struct {

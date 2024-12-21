@@ -19,7 +19,7 @@ package bccsp
 import (
 	"hash"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 )
 
 // Key represents a cryptographic key

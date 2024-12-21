@@ -13,7 +13,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/hyperledger/fabric-ca/lib"
 	"github.com/hyperledger/fabric-lib-go/healthz"

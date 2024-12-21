@@ -10,15 +10,16 @@
 // The handled paths all begin with /debug/pprof/.
 //
 // To use pprof, link this package into your program:
+//
 //	import _ "net/http/pprof"
 //
 // If your application is not already running an http server, you
-// need to start one. Add "github.com/studyzy/net/http" and "log" to your imports and
+// need to start one. Add "github.com/chenjz24/net/http" and "log" to your imports and
 // the following code to your main function:
 //
-// 	go func() {
-// 		log.Println(http.ListenAndServe("localhost:6060", nil))
-// 	}()
+//	go func() {
+//		log.Println(http.ListenAndServe("localhost:6060", nil))
+//	}()
 //
 // Then use the pprof tool to look at the heap profile:
 //
@@ -48,7 +49,6 @@
 // For a study of the facility in action, visit
 //
 //	https://blog.golang.org/2011/06/profiling-go-programs.html
-//
 package pprof
 
 import (
@@ -58,7 +58,6 @@ import (
 	"html/template"
 	"io"
 	"log"
-	"github.com/studyzy/net/http"
 	"os"
 	"runtime"
 	"runtime/pprof"
@@ -67,6 +66,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/chenjz24/net/http"
 )
 
 func init() {

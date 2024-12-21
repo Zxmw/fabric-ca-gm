@@ -16,9 +16,10 @@ limitations under the License.
 package sm2
 
 import (
-	"github.com/studyzy/crypto/elliptic"
 	"math/big"
 	"sync"
+
+	"github.com/chenjz24/crypto/elliptic"
 )
 
 /** 学习标准库p256的优化方法实现sm2的快速版本

@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/studyzy/crypto/rsa"
+	"github.com/chenjz24/crypto/rsa"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 )
 
 var (

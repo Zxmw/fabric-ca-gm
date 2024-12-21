@@ -21,9 +21,9 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"

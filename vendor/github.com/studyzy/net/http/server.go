@@ -10,7 +10,6 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	"github.com/studyzy/crypto/tls"
 	"errors"
 	"fmt"
 	"io"
@@ -28,6 +27,8 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/chenjz24/crypto/tls"
 
 	"golang.org/x/net/http/httpguts"
 )
