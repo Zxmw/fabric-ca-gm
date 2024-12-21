@@ -6,6 +6,7 @@ package ssh
 
 import (
 	"bytes"
+	"crypto/aes"
 	"crypto/cipher"
 	"crypto/dsa"
 	"crypto/md5"
@@ -20,11 +21,10 @@ import (
 	"strings"
 
 	"github.com/studyzy/crypto/rsa"
+
 	"github.com/studyzy/crypto/x509"
 
 	"github.com/studyzy/crypto/elliptic"
-
-	"github.com/studyzy/crypto/aes"
 
 	"github.com/studyzy/crypto/ecdsa"
 

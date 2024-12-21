@@ -9,6 +9,7 @@ package x509
 // implementation.
 
 import (
+	"crypto/aes"
 	"crypto/cipher"
 	"crypto/des"
 	"crypto/md5"
@@ -17,8 +18,6 @@ import (
 	"errors"
 	"io"
 	"strings"
-
-	"github.com/studyzy/crypto/aes"
 )
 
 type PEMCipher int

@@ -18,13 +18,12 @@ package sw
 
 import (
 	"bytes"
+	"crypto/aes"
 	"crypto/cipher"
 	"crypto/rand"
 	"errors"
 	"fmt"
 	"io"
-
-	"github.com/studyzy/crypto/aes"
 
 	"github.com/hyperledger/fabric/bccsp"
 )

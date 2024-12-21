@@ -2,8 +2,9 @@
 package universal
 
 import (
-	"github.com/studyzy/crypto/x509"
 	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/cloudflare/cfssl/certdb"
 	"github.com/cloudflare/cfssl/config"

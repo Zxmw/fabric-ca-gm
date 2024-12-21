@@ -5,6 +5,7 @@
 package ssh
 
 import (
+	"crypto/aes"
 	"crypto/cipher"
 	"crypto/des"
 	"crypto/rc4"
@@ -15,8 +16,6 @@ import (
 	"hash"
 	"io"
 	"io/ioutil"
-
-	"github.com/studyzy/crypto/aes"
 
 	"golang.org/x/crypto/chacha20"
 	"golang.org/x/crypto/poly1305"

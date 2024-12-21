@@ -254,6 +254,28 @@ github.com/stretchr/objx
 ## explicit
 github.com/stretchr/testify/assert
 github.com/stretchr/testify/mock
+# github.com/studyzy/crypto v0.0.0-20201025151115-27e67ee9d143
+## explicit
+github.com/studyzy/crypto
+github.com/studyzy/crypto/aes
+github.com/studyzy/crypto/ecdsa
+github.com/studyzy/crypto/elliptic
+github.com/studyzy/crypto/internal/randutil
+github.com/studyzy/crypto/internal/sm2
+github.com/studyzy/crypto/internal/sm3
+github.com/studyzy/crypto/internal/sm4
+github.com/studyzy/crypto/rsa
+github.com/studyzy/crypto/sha256
+github.com/studyzy/crypto/tls
+github.com/studyzy/crypto/x509
+# github.com/studyzy/net v0.0.0-20201020014349-89230b9445e0
+## explicit
+github.com/studyzy/net/http
+github.com/studyzy/net/http/httptest
+github.com/studyzy/net/http/httptrace
+github.com/studyzy/net/http/httptrace/internal/nettrace
+github.com/studyzy/net/http/internal
+github.com/studyzy/net/http/pprof
 # github.com/sykesm/zap-logfmt v0.0.0-20190124193228-ccbdde42f96b
 ## explicit
 github.com/sykesm/zap-logfmt
@@ -274,11 +296,13 @@ go.uber.org/zap/zapgrpc
 golang.org/x/crypto/bcrypt
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/chacha20
+golang.org/x/crypto/chacha20poly1305
 golang.org/x/crypto/cryptobyte
 golang.org/x/crypto/cryptobyte/asn1
 golang.org/x/crypto/curve25519
 golang.org/x/crypto/ed25519
 golang.org/x/crypto/ed25519/internal/edwards25519
+golang.org/x/crypto/hkdf
 golang.org/x/crypto/internal/subtle
 golang.org/x/crypto/ocsp
 golang.org/x/crypto/pkcs12
@@ -294,6 +318,10 @@ golang.org/x/net/context/ctxhttp
 golang.org/x/net/html
 golang.org/x/net/html/atom
 golang.org/x/net/html/charset
+golang.org/x/net/http/httpguts
+golang.org/x/net/http/httpproxy
+golang.org/x/net/http2/hpack
+golang.org/x/net/idna
 # golang.org/x/sys v0.0.0-20201018230417-eeed37f84f13
 ## explicit
 golang.org/x/sys/cpu
@@ -316,7 +344,9 @@ golang.org/x/text/internal/tag
 golang.org/x/text/internal/utf8internal
 golang.org/x/text/language
 golang.org/x/text/runes
+golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 # google.golang.org/appengine v1.6.7
 ## explicit

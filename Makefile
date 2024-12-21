@@ -113,7 +113,7 @@ fabric-ca-server: bin/fabric-ca-server
 
 bin/%: $(GO_SOURCE)
 	@echo "Building ${@F} in bin directory ..."
-	@mkdir -p bin && go build -o bin/${@F} -tags "pkcs11" -ldflags "$(GO_LDFLAGS)" $(PKGNAME)/$(path-map.${@F})
+	@mkdir -p bin && go build -mod=vendor -o bin/${@F} -tags "pkcs11" -ldflags "$(GO_LDFLAGS)" $(PKGNAME)/$(path-map.${@F})
 	@echo "Built bin/${@F}"
 
 # We (re)build a package within a docker context but persist the $GOPATH/pkg
@@ -127,7 +127,7 @@ build/docker/bin/%:
 		-v $(abspath build/docker/cache):/opt/gopath/cache \
 		-e GOCACHE=/opt/gopath/cache \
 		$(BASE_DOCKER_NS)/fabric-baseimage:$(BASE_DOCKER_TAG) \
-		go install -ldflags "$(DOCKER_GO_LDFLAGS)" $(PKGNAME)/$(path-map.${@F})
+		go install -mod=vendor -ldflags "$(DOCKER_GO_LDFLAGS)" $(PKGNAME)/$(path-map.${@F})
 	@touch $@
 
 build/image/%/$(DUMMY): Makefile build/image/%/payload
@@ -263,12 +263,12 @@ release/%/bin/fabric-ca-client: GO_TAGS+= caclient
 release/%/bin/fabric-ca-client: $(GO_SOURCE)
 	@echo "Building $@ for $(GOOS)-$(GOARCH)"
 	mkdir -p $(@D)
-	GOOS=$(GOOS) GOARCH=$(GOARCH) go build -o $(abspath $@) -tags "$(GO_TAGS)" -ldflags "$(GO_LDFLAGS)" $(PKGNAME)/$(path-map.$(@F))
+	GOOS=$(GOOS) GOARCH=$(GOARCH) go build -mod=vendor -o $(abspath $@) -tags "$(GO_TAGS)" -ldflags "$(GO_LDFLAGS)" $(PKGNAME)/$(path-map.$(@F))
 
 release/%/bin/fabric-ca-server: $(GO_SOURCE)
 	@echo "Building $@ for $(GOOS)-$(GOARCH)"
 	mkdir -p $(@D)
-	GOOS=$(GOOS) GOARCH=$(GOARCH) go build -o $(abspath $@) -tags "$(GO_TAGS)" -ldflags "$(GO_LDFLAGS)" $(PKGNAME)/$(path-map.$(@F))
+	GOOS=$(GOOS) GOARCH=$(GOARCH) go build -mod=vendor -o $(abspath $@) -tags "$(GO_TAGS)" -ldflags "$(GO_LDFLAGS)" $(PKGNAME)/$(path-map.$(@F))
 
 .PHONY: dist
 dist: dist-clean release
